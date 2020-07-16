@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <Layout>
-        <h1>Teste</h1>
+        <h1>Header h1</h1>
+        <h2>Header h2</h2>
+        <h3>Header h3</h3>
       </Layout>
     </>
   );
