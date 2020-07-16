@@ -1,0 +1,51 @@
+.c-alert {
+  padding: 10px;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.37rem;
+}
+
+.c-alert-default {
+  color: #19367a;
+  background-color: #d6e1fb;
+  border-color: #c5d4f9;
+}
+
+.c-alert-gray {
+  color: #2c2c2c;
+  background-color: #dddddd;
+  border-color: #cfcfcf;
+}
+
+.c-alert-success {
+  color: #005e0c;
+  background-color: #ccf0d1;
+  border-color: #b8eabe;
+}
+
+.c-alert-danger {
+  color: #821b1b;
+  background-color: #fed6d6;
+  border-color: #fec6c6;
+}
+
+.c-alert-warning {
+  color: #854b0c;
+  background-color: #ffe9d1;
+  border-color: #ffe0be;
+}
+
+.c-alert-ligth-green {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.c-alert-center {
+  text-align: center;
+}
+.c-alert-rigth {
+  text-align: right;
+}
