@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react';
+import Layout from './components/Layout';
 
 function App() {
-  return <>Init project</>;
+  return (
+    <>
+      <Layout>
+        <h1>Teste</h1>
+      </Layout>
+    </>
+  );
 }
 
 export default App;
