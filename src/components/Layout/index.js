@@ -2,11 +2,7 @@ import React from 'react';
 import './style.scss';
 
 const Layout = (props) => {
-  return (
-    <main>
-      <section>{props.children}</section>
-    </main>
-  );
+  return <main>{props.children}</main>;
 };
 
 export default Layout;
