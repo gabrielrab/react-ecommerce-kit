@@ -1,7 +1,14 @@
 import React from 'react';
 import './style.scss';
 import SearchBar from './Search';
+import Dropdown from '../Dropdown';
+import { FaUserAlt } from 'react-icons/fa';
+
 const Header = (props) => {
+  const optsList = [
+    { text: 'Primeiro link', to: '/vai-carai' },
+    { text: 'Segundo link', to: '/vai-carai2' },
+  ];
   return (
     <>
       <header className="c-header">
@@ -11,6 +18,11 @@ const Header = (props) => {
             <div className="c-header-up-serch">
               {/* Fazer a serach bar receber os item da busca */}
               <SearchBar />
+              <div className="c-header-up-serch-actions">
+                <Dropdown opts={optsList}>
+                  <FaUserAlt />
+                </Dropdown>
+              </div>
             </div>
           </div>
         </div>

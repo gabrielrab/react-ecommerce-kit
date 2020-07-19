@@ -23,6 +23,10 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      .c-header-up-serch {
+        display: flex;
+        flex-direction: row;
+      }
     }
   }
 }

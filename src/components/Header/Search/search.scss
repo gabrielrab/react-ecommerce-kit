@@ -1,16 +1,18 @@
 .c-search {
-  //border: 1px solid #ced4da;
-  background-color: #ced4da;
   input {
     width: 300px;
-    background-color: transparent;
-    border: none;
+    height: 36px;
+    padding: 9px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #ced4da;
   }
   .c-search-btn {
     padding: 10px;
     background-color: #3167eb;
     border: none;
     color: white;
+    border-radius: 0px 5px 5px 0px;
     font-weight: 700;
+    height: 36px;
   }
 }
