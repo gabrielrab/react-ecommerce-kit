@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.scss';
 
-//Receber os items e ter possibilidade de link
 const Dropdown = (props) => {
   const { opts } = props;
   return (

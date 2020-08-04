@@ -17,7 +17,7 @@ const Header = (props) => {
             <h2>LOGO CMPY</h2>
             <div className="c-header-up-serch">
               {/* Fazer a serach bar receber os item da busca */}
-              <SearchBar />
+              <SearchBar opts={optsList} />
               <div className="c-header-up-serch-actions">
                 <Dropdown opts={optsList}>
                   <FaUserAlt />
