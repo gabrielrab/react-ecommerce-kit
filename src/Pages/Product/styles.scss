@@ -17,6 +17,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    h1 {
+      color: #3167eb;
+    }
+
     h3,
     p {
       padding: 10px 0;
@@ -49,10 +54,19 @@
 
     .p-product-button-div {
       width: 100%;
+      flex-direction: column;
       display: flex;
       align-items: center;
       justify-content: center;
       padding: 10px 0;
+
+      .p-product-button-element {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 20px;
+      }
 
       .p-product-button {
         background-color: #3167eb;
@@ -82,11 +96,82 @@
       }
     }
   }
+}
+.p-product-infos {
+  text-align: center;
+  p,
+  h3 {
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .p-product-container {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    padding: 0;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+
+    .p-product-image {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 20px;
+      img {
+        height: 250px;
+      }
+    }
+
+    .p-product-value {
+      width: 50%;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      border-left: 1px solid #ccc;
+      flex-direction: column;
+      text-align: left;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      h3 {
+        max-width: 100%;
+        font-size: 28px;
+      }
+
+      h1 {
+        color: #3167eb;
+      }
+
+      p {
+        font-size: 14px;
+      }
+      h3,
+      p {
+        padding: 2px 0;
+      }
+
+      .p-product-button-div {
+        align-items: flex-start;
+
+        .p-product-button-element {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
 
   .p-product-infos {
-    p,
-    h3 {
-      padding: 10px 0;
+    margin-top: 50px;
+    h3,
+    p {
+      padding: 1px 0;
     }
   }
 }

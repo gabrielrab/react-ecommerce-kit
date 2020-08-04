@@ -36,45 +36,46 @@ export default function Product() {
             <img src={productImg} alt="produto" />
           </div>
           <div className="p-product-value">
-            <h3>PRODUTO GENERICO TALTAL</h3>
+            <h3>DORFLEX DIPIRONA + CAFEINA + PROMETAZINA</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               euismod mattis aliquam. Donec velit nibh, interdum eget turpis et,
               iaculis vehicula justo
             </p>
-
-            <div className="p-product-qty">
-              <BsDash
-                color="#3167eb"
-                size={25}
-                onClick={handleReduceQuantity}
-              />
-              <p>{quantity}</p>
-              <BsPlus color="#3167eb" size={25} onClick={handleAddQuantity} />
-            </div>
+            <h1>R$ 7,90</h1>
 
             <div className="p-product-button-div">
-              <button className="p-product-button p-product-button-buy">
-                COMPRAR
-              </button>
-              <button className="p-product-button p-product-button-cart">
-                <img src={cartIcon} alt="cart icon" />
-              </button>
+              <div className="p-product-qty">
+                <BsDash
+                  color="#3167eb"
+                  size={25}
+                  onClick={handleReduceQuantity}
+                />
+                <p>{quantity}</p>
+                <BsPlus color="#3167eb" size={25} onClick={handleAddQuantity} />
+              </div>
+              <div className="p-product-button-element">
+                <button className="p-product-button p-product-button-buy">
+                  COMPRAR
+                </button>
+                <button className="p-product-button p-product-button-cart">
+                  <img src={cartIcon} alt="cart icon" />
+                </button>
+              </div>
             </div>
           </div>
-
-          <div className="p-product-infos">
-            <h3>DESCRIÇÃO</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              euismod mattis aliquam. Donec velit nibh, interdum eget turpis et,
-              iaculis vehicula justo. Donec id dui et lacus auctor porttitor.
-              Donec felis lorem, lobortis id ligula nec, porta faucibus purus.
-              Aliquam erat volutpat. Quisque sed condimentum felis. Sed nulla
-              massa, volutpat vitae mi sed, fermentum placerat magna. Ut
-              consectetur felis eget arcu rhoncus, a vehicula tellus lobortis.
-            </p>
-          </div>
+        </div>
+        <div className="p-product-infos">
+          <h3>DESCRIÇÃO</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            euismod mattis aliquam. Donec velit nibh, interdum eget turpis et,
+            iaculis vehicula justo. Donec id dui et lacus auctor porttitor.
+            Donec felis lorem, lobortis id ligula nec, porta faucibus purus.
+            Aliquam erat volutpat. Quisque sed condimentum felis. Sed nulla
+            massa, volutpat vitae mi sed, fermentum placerat magna. Ut
+            consectetur felis eget arcu rhoncus, a vehicula tellus lobortis.
+          </p>
         </div>
       </Layout>
     </>
