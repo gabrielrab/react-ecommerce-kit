@@ -22,8 +22,17 @@ const Header = (props) => {
                 <Dropdown opts={optsList}>
                   <FaUserAlt />
                 </Dropdown>
+                <Dropdown opts={optsList}>
+                  <FaUserAlt />
+                </Dropdown>
               </div>
             </div>
+          </div>
+          <div className="">
+            <Dropdown opts={optsList}>Suplementos</Dropdown>
+            <Dropdown opts={optsList}>Genéricos</Dropdown>
+            <Dropdown opts={optsList}>Beleza</Dropdown>
+            <Dropdown opts={optsList}>Energia</Dropdown>
           </div>
         </div>
       </header>

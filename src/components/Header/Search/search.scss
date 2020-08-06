@@ -1,4 +1,6 @@
 .c-search {
+  display: flex;
+  flex-wrap: nowrap;
   input {
     width: 300px;
     height: 36px;
