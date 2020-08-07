@@ -1,10 +1,16 @@
 import React from 'react';
-import Routes from './routes.js';
 
-function App() {
+import Layout from '../../components/Layout';
+import Alert from '../../components/Alerts';
+import Header from '../../components/Header';
+
+export default function Landing() {
   return (
     <>
-      <Header />
+      <div className="container">
+        <Header />
+      </div>
+
       <Layout>
         <h1>Header h1</h1>
         <h2>Header h2</h2>
@@ -28,5 +34,3 @@ function App() {
     </>
   );
 }
-
-export default App;
