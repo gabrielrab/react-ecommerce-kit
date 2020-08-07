@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Layout>
+      <Layout>
         <h1>Header h1</h1>
         <h2>Header h2</h2>
         <h3>Header h3</h3>
@@ -26,7 +26,7 @@ function App() {
           <Alert type="warning">Mensagem simples de alerta</Alert>
           <Alert type="ligth-green">Mensagem simples de alerta</Alert>
         </div>
-      </Layout> */}
+      </Layout>
     </>
   );
 }
