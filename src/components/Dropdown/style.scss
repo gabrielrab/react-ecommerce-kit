@@ -1,0 +1,35 @@
+.c-dropdown {
+  margin-left: 8px;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+  .c-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 0;
+    z-index: 1;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    ul {
+      list-style: none;
+      li {
+        margin-top: 5px;
+        padding: 0.5rem 1.5rem;
+        text-align: inherit;
+        white-space: nowrap;
+      }
+      li:hover {
+        background-color: #f8f9fa;
+      }
+      a {
+        text-decoration: none;
+        color: #212529;
+      }
+    }
+  }
+}
+.c-dropdown:hover .c-dropdown-content {
+  display: block;
+}

@@ -3,15 +3,10 @@ import Layout from './components/Layout';
 import Alert from './components/Alerts';
 import Header from './components/Header';
 
-import './global.scss';
-
 function App() {
   return (
     <>
-      <div className="container">
-        <Header />
-      </div>
-
+      <Header />
       <Layout>
         <h1>Header h1</h1>
         <h2>Header h2</h2>
