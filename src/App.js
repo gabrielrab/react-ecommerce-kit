@@ -1,5 +1,5 @@
 import React from 'react';
-import Routes from './routes.js';
+import { Header, Layout, Alert } from './components';
 
 function App() {
   return (
