@@ -1,0 +1,38 @@
+.c-qty-selector {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.c-qty-selector-content {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 0.5em;
+  button {
+    width: 30px;
+    height: 100%;
+    background: transparent;
+    border: none;
+  }
+  .c-qty-selector-right {
+    border-right: 1px solid #ced4da;
+  }
+  .c-qty-selector-right:hover {
+    border: 1px solid #b1b2b3;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .c-qty-selector-left {
+    border-left: 1px solid #ced4da;
+  }
+  .c-qty-selector-left:hover {
+    border: 1px solid #b1b2b3;
+    border-radius: 0px 5px 5px 0px;
+  }
+}
