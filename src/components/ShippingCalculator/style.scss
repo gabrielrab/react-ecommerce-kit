@@ -1,0 +1,12 @@
+.c-shipping-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 9px;
+  }
+}
