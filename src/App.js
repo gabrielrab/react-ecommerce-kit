@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <Layout>
-        <h1>Header h1</h1>
+        {/* <h1>Header h1</h1>
         <h2>Header h2</h2>
         <h3>Header h3</h3>
         <div>
@@ -33,7 +33,7 @@ function App() {
           </Alert>
           <Alert type="warning">Mensagem simples de alerta</Alert>
           <Alert type="ligth-green">Mensagem simples de alerta</Alert>
-        </div>
+        </div> */}
         <ProductDetail productData={productData} />
       </Layout>
     </>

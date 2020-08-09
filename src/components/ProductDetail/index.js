@@ -42,6 +42,7 @@ const ProductDetail = (props) => {
               <QtySelector maxstock={props.productData.stock} />
               <ShippingCalculator />
             </div>
+            <button className="c-product-detail-button">Comprar</button>
           </>
         ) : (
           <></>

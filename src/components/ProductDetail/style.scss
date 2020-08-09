@@ -46,4 +46,20 @@
     flex-direction: row;
     justify-content: space-around;
   }
+  .c-product-detail-button {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3167eb;
+    border-color: #3167eb;
+    padding: 0.45rem 0.85rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .c-product-detail-button:hover {
+    color: #fff;
+    background-color: #1650e0;
+    border-color: #154cd4;
+  }
 }
