@@ -4,6 +4,9 @@
   display: inline-block;
   height: 100%;
   padding: 10px;
+  .c-dropdown-up {
+    font-weight: bold;
+  }
   .c-dropdown-content {
     display: none;
     position: absolute;

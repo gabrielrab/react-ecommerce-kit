@@ -1,6 +1,7 @@
 .c-search {
   display: flex;
   flex-wrap: nowrap;
+  max-height: 36px;
   input {
     width: 300px;
     height: 36px;
@@ -42,6 +43,14 @@
         text-decoration: none;
         color: #212529;
       }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .c-search {
+    input {
+      width: 200px;
     }
   }
 }
