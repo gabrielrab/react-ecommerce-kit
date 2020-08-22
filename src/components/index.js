@@ -5,3 +5,4 @@ export { default as Alert } from './Alerts';
 export { default as ProductDetail } from './ProductDetail';
 export { default as QtySelector } from './QtySelector';
 export { default as ShippingCalculator } from './ShippingCalculator';
+export { default as Card } from './Card';

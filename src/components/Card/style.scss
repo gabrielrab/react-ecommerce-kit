@@ -1,0 +1,57 @@
+.c-card {
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0.37rem;
+  max-width: 330px;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-right: 8px;
+  img {
+    width: 95%;
+  }
+  hr {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #ced4da;
+  }
+  .c-card-content {
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 18px;
+    .c-card-name {
+      font-weight: bold;
+      color: #212529;
+      margin-bottom: 15px;
+    }
+    .c-card-price {
+      font-size: 22px;
+      font-weight: bold;
+      color: #212529;
+    }
+    .c-card-button {
+      width: 85%;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #3167eb;
+      border-color: #3167eb;
+      padding: 0.45rem 0.85rem;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .c-card-button:hover {
+      color: #fff;
+      background-color: #1650e0;
+      border-color: #154cd4;
+    }
+  }
+}
+.c-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
