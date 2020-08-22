@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,22 +11,53 @@
 
 .c-header {
   background-color: white;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   .c-header-content {
-    max-width: 100%;
-    width: 990px;
+    width: 100%;
     .c-header-up {
       width: 100%;
       display: flex;
       flex-direction: row;
+      align-items: center;
       justify-content: space-between;
+      img {
+        max-width: 20%;
+        margin-right: 10px;
+      }
+
       .c-header-up-serch {
         display: flex;
         flex-direction: row;
+        align-items: center;
+      }
+
+      .c-header-up-serch-actions {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    .c-header-options {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .c-header {
+    .c-header-content {
+      .c-header-up {
+        .c-header-up-serch-actions {
+          flex-wrap: wrap;
+          justify-content: flex-end;
+        }
       }
     }
   }

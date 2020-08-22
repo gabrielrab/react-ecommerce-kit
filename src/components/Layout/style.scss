@@ -1,25 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-input,
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
 main {
   font-family: 'Inter', sans-serif;
   background-color: #f8f9fa;
   color: #212529;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   padding: 20px;
   display: flex;
