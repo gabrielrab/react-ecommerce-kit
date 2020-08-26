@@ -41,11 +41,17 @@
         flex-direction: row;
       }
     }
+
     .c-header-options {
       display: flex;
       flex-wrap: wrap;
+      cursor: pointer;
+      margin-top: 1rem;
       align-items: center;
-      justify-content: center;
+
+      div:nth-child(1) {
+        margin-left: 0px;
+      }
     }
   }
 }
@@ -58,6 +64,9 @@
           flex-wrap: wrap;
           justify-content: flex-end;
         }
+      }
+      .c-header-options {
+        justify-content: center;
       }
     }
   }
