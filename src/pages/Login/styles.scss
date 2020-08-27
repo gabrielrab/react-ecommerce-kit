@@ -1,0 +1,113 @@
+.p-login-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .p-login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 433px;
+    background-color: white;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.37rem;
+
+    .p-login-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+
+    .p-login-form {
+      .p-login-input {
+        width: 100%;
+        height: calc(1.5em + 0.9rem + 2px);
+        padding: 1rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+
+      .p-login-subtitle {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        color: #343a40;
+      }
+
+      .p-login-info {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+      }
+
+      .p-login-checkbox {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0.5rem;
+
+        .p-input-checkbox {
+          width: 15px;
+          height: 15px;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 0.2rem;
+          margin-right: 0.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #343a40;
+        }
+      }
+
+      button {
+        width: 100%;
+        padding: 0.45rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid transparent;
+        background-color: #3167eb;
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        transition: all 0.4s;
+        cursor: pointer;
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .p-login-new {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    p {
+      font-size: 1rem;
+      color: #343a40;
+    }
+
+    a {
+      margin-left: 0.4rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3167eb;
+  }
+}
