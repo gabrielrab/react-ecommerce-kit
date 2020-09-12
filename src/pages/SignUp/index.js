@@ -27,7 +27,7 @@ export default function SignUp() {
             <div className="p-signUp-div">
               <p className="p-signUp-subtitle">Nome</p>
               <input
-                type="email"
+                type="text"
                 required
                 onChange={handleChange}
                 placeholder="João"
@@ -37,7 +37,7 @@ export default function SignUp() {
             <div className="p-signUp-div">
               <p className="p-signUp-subtitle">Sobrenome</p>
               <input
-                type="email"
+                type="text"
                 required
                 onChange={handleChange}
                 placeholder="Rodrigues"
@@ -58,7 +58,7 @@ export default function SignUp() {
               <p className="p-signUp-subtitle">Senha</p>
 
               <input
-                type="email"
+                type="password"
                 required
                 onChange={handleChange}
                 placeholder="*******"
@@ -70,7 +70,7 @@ export default function SignUp() {
               <p className="p-signUp-subtitle">Repetir Senha</p>
 
               <input
-                type="email"
+                type="password"
                 required
                 onChange={handleChange}
                 placeholder="*******"
