@@ -17,7 +17,8 @@ export default function RecoverPass() {
         <div className="p-recoverPass-top">
           <p className="p-recoverPass-title">Digite sua nova senha</p>
           <p className="p-recoverPass-subtitle">
-            Lembre-se não passe sua senha para outras pessoas!
+            Lembre-se sua senha é algo confidencial, não compartilhe-a com
+            outras pessoas!
           </p>
         </div>
 
