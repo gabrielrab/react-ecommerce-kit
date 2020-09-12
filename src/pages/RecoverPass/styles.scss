@@ -1,0 +1,79 @@
+.p-recoverPass-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .p-recoverPass-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .p-recoverPass-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 433px;
+    background-color: white;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.37rem;
+
+    .p-recoverPass-top {
+      margin-bottom: 45px;
+
+      .p-recoverPass-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.4rem;
+      }
+    }
+
+    .p-recoverPass-subtitle {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      color: #343a40;
+    }
+
+    .p-recoverPass-form {
+      .p-recoverPass-input {
+        width: 100%;
+        height: calc(1.5em + 0.9rem + 2px);
+        padding: 1rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 0.45rem 0.85rem;
+      border-radius: 0.37rem;
+      border: 1px solid transparent;
+      background-color: #3167eb;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      transition: all 0.4s;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .p-recoverPass-container {
+    .p-recoverPass-logo {
+      left: calc(50% - 70.5px) !important;
+    }
+  }
+}

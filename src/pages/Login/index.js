@@ -1,6 +1,9 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import './styles.scss';
+import logo from '../../assets/images/logo.png';
 
 export default function Login() {
   //depois será implementado axios // handlesubmit
@@ -11,8 +14,9 @@ export default function Login() {
 
   return (
     <div className="p-login-container">
+      <img className="p-login-logo" src={logo} alt="logo" />
       <div className="p-login-content">
-        <p className="p-login-title">Sign in</p>
+        <p className="p-login-title">Faça seu login</p>
 
         <form className="p-login-form">
           <p className="p-login-subtitle">Email</p>
@@ -25,8 +29,8 @@ export default function Login() {
           />
 
           <div className="p-login-info">
-            <p className="p-login-subtitle">Password</p>
-            <a href="/">Forgot</a>
+            <p>Senha</p>
+            <Link to="/forgetPassword">Esqueci minha senha</Link>
           </div>
           <input
             type="password"
@@ -36,17 +40,12 @@ export default function Login() {
             className="p-login-input"
           />
 
-          <div className="p-login-checkbox">
-            <input type="checkbox" className="p-input-checkbox" />
-            <p>Remember</p>
-          </div>
-
           <button type="submit">Login</button>
         </form>
 
         <div className="p-login-new">
-          <p>New here?</p>
-          <a href="/">Sign up</a>
+          <p>Novo aqui?</p>
+          <Link to="/signUp">Crie sua conta</Link>
         </div>
       </div>
     </div>

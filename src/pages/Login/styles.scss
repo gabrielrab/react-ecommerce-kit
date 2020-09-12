@@ -6,6 +6,12 @@
   justify-content: center;
   align-items: center;
 
+  .p-login-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
   .p-login-content {
     display: flex;
     flex-direction: column;
@@ -34,17 +40,26 @@
       }
 
       .p-login-subtitle {
-        margin-bottom: 0.5rem;
         font-size: 1rem;
         color: #343a40;
+        margin-bottom: 0.6rem;
       }
 
       .p-login-info {
         display: flex;
         flex-direction: row;
+        align-items: center;
         width: 100%;
         justify-content: space-between;
         margin-bottom: 0.5rem;
+        p {
+          font-size: 1rem;
+          color: #343a40;
+        }
+
+        a {
+          font-size: 0.7rem;
+        }
       }
 
       .p-login-checkbox {
@@ -61,6 +76,11 @@
           border: 1px solid rgba(0, 0, 0, 0.1);
           border-radius: 0.2rem;
           margin-right: 0.5rem;
+        }
+
+        .p-input-checkbox:checked {
+          background: #3167eb;
+          border: 1px solid #f7f7f7;
         }
 
         p {
@@ -109,5 +129,14 @@
     text-decoration: none;
     font-size: 1rem;
     color: #3167eb;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-login-container {
+    flex-direction: column;
+    .p-login-logo {
+      left: calc(50% - 70.5px);
+    }
   }
 }
