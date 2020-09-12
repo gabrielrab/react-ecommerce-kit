@@ -1,0 +1,142 @@
+.p-login-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .p-login-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .p-login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 433px;
+    background-color: white;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.37rem;
+
+    .p-login-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+
+    .p-login-form {
+      .p-login-input {
+        width: 100%;
+        height: calc(1.5em + 0.9rem + 2px);
+        padding: 1rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+
+      .p-login-subtitle {
+        font-size: 1rem;
+        color: #343a40;
+        margin-bottom: 0.6rem;
+      }
+
+      .p-login-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        p {
+          font-size: 1rem;
+          color: #343a40;
+        }
+
+        a {
+          font-size: 0.7rem;
+        }
+      }
+
+      .p-login-checkbox {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0.5rem;
+
+        .p-input-checkbox {
+          width: 15px;
+          height: 15px;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 0.2rem;
+          margin-right: 0.5rem;
+        }
+
+        .p-input-checkbox:checked {
+          background: #3167eb;
+          border: 1px solid #f7f7f7;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #343a40;
+        }
+      }
+
+      button {
+        width: 100%;
+        padding: 0.45rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid transparent;
+        background-color: #3167eb;
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        transition: all 0.4s;
+        cursor: pointer;
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .p-login-new {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    p {
+      font-size: 1rem;
+      color: #343a40;
+    }
+
+    a {
+      margin-left: 0.4rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3167eb;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-login-container {
+    flex-direction: column;
+    .p-login-logo {
+      left: calc(50% - 70.5px);
+    }
+  }
+}

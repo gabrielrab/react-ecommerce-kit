@@ -1,0 +1,161 @@
+.p-signUp-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .p-signUp-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .p-signUp-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 500px;
+    height: 470px;
+    background-color: white;
+    padding: 1.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.37rem;
+
+    .p-signUp-top {
+      margin-bottom: 30px;
+
+      .p-signUp-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.4rem;
+      }
+    }
+
+    .p-signUp-subtitle {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      color: #343a40;
+    }
+
+    .p-signUp-form {
+      .p-signUp-div {
+        width: 48%;
+      }
+      .p-signUp-name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .p-signUp-input {
+        width: 100%;
+        height: calc(1.5em + 0.9rem + 2px);
+        padding: 1rem 0.85rem;
+        border-radius: 0.37rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 0.45rem 0.85rem;
+      border-radius: 0.37rem;
+      border: 1px solid transparent;
+      background-color: #3167eb;
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      transition: all 0.4s;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .p-login-new {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: row;
+
+    p {
+      font-size: 1rem;
+      color: #343a40;
+    }
+
+    a {
+      margin-left: 0.4rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3167eb;
+  }
+}
+
+@media (max-width: 800px) {
+  .p-signUp-container {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .p-signUp-logo {
+      position: initial;
+      display: flex;
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+
+    .p-signUp-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 340px;
+      min-height: 630px;
+      background-color: white;
+      padding: 1.25rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0.37rem;
+
+      .p-signUp-top {
+        margin-bottom: 10px;
+      }
+
+      .p-signUp-subtitle {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        color: #343a40;
+      }
+
+      .p-signUp-form {
+        .p-signUp-div {
+          width: 100%;
+        }
+        .p-signUp-name {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .p-signUp-input {
+          width: 100%;
+          height: calc(1.5em + 0.9rem + 2px);
+          padding: 1.2rem 0.85rem;
+          border-radius: 0.37rem;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
