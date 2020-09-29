@@ -1,11 +1,13 @@
 .c-card-container {
   max-width: 330px;
+  min-width: 310px;
   margin-right: 0px !important;
   .c-card {
     background-color: white;
     border: 1px solid #ced4da;
     border-radius: 0.37rem;
     max-width: 330px;
+    min-height: 380px;
     padding: 0.5em;
     padding-bottom: 0.8em;
     display: flex;
@@ -41,7 +43,7 @@
         color: #212529;
       }
       .c-card-button {
-        width: 85%;
+        width: 100%;
         border-radius: 5px;
         color: #fff;
         background-color: #3167eb;

@@ -25,9 +25,14 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      img {
+
+      a {
         max-width: 20%;
+        text-decoration: none;
         margin-right: 10px;
+        img {
+          max-width: 100%;
+        }
       }
 
       .c-header-up-serch {
