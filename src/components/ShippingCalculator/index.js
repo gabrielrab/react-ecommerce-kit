@@ -5,7 +5,7 @@ const ShippingCalculator = () => {
   return (
     <div className="c-shipping-calculator">
       Calcule o frete:
-      <input placeholder="Digite o cep:" name="cep-number" />
+      <input placeholder="Digite o cep" name="cep-number" />
     </div>
   );
 };

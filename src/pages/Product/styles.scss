@@ -1,0 +1,28 @@
+.p-product-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .p-product-info-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 0.4rem;
+    .p-product-info-bold {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .p-product-data {
+    display: flex;
+    justify-content: center;
+  }
+}

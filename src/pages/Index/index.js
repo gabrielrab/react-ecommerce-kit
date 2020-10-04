@@ -6,9 +6,9 @@ import './styles.scss';
 
 export default function Index() {
   const productData = {
-    name: 'Off-White Odsy-1000 Low-Top Sneakers',
+    name: 'Dipirona em gotas 20ml',
     image:
-      'http://bootstrap-ecommerce.com/bootstrap-ecommerce-html/images/items/12.jpg',
+      'https://lh3.googleusercontent.com/proxy/_EET_a8m2mj_CRbSeNPufS4-LS8eENAkw_yp_AXgmY7Yisf_0kqqvUM0yOPz_NC0-G_Al6xiDYL12qWXVppW6jYfwR0XBxyvFcUsQ4On8d_HDzfUtXzP-uM0Ug',
     price: 18.99,
     shortDescription:
       'Virgil Abloh’s Off-White is a streetwear-inspired collection that continues to break away from the conventions of mainstream fashion. Made in Italy, these black and brown Odsy-1000 low-top sneakers.',
@@ -25,37 +25,37 @@ export default function Index() {
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
           <Card
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
           <Card
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
           <Card
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
           <Card
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
           <Card
             name={productData.name}
             image={productData.image}
             price={productData.price}
-            to="/link"
+            to="/produto"
           />
         </div>
       </Layout>
